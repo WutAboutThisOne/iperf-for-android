@@ -1,0 +1,31 @@
+iPerf for Android
+Copyright 2026 The project authors
+
+This product is licensed under the Apache License, Version 2.0 (see LICENSE).
+
+Not affiliated with or endorsed by ESnet, Lawrence Berkeley National Laboratory,
+the U.S. Department of Energy, or Google LLC. Android is a trademark of Google LLC.
+
+------------------------------------------------------------------------------
+Third-party software bundled in the app
+------------------------------------------------------------------------------
+
+iperf3 3.22 (https://github.com/esnet/iperf)
+  Compiled from unmodified upstream source (tag 3.22) with the Android NDK by
+  native/build-iperf3.sh and shipped as app/src/main/jniLibs/<abi>/libiperf3.so.
+  BSD 3-Clause licence; includes cJSON (MIT) and other notices. Full text:
+  app/src/main/assets/licenses/iperf3-LICENSE.txt (also shown in the app).
+
+  "iperf, Copyright (c) 2014-2026, The Regents of the University of California,
+  through Lawrence Berkeley National Laboratory (subject to receipt of any
+  required approvals from the U.S. Dept. of Energy). All rights reserved."
+
+OpenSSL 3.5.9 (https://www.openssl.org)
+  libcrypto, statically linked into iperf3 for its RSA server-login support.
+  Apache License 2.0. Full text: app/src/main/assets/licenses/openssl-LICENSE.txt.
+
+AndroidX, Jetpack Compose, Material 3, Material icons, WindowManager
+  Copyright The Android Open Source Project. Apache License 2.0.
+
+Kotlin standard library and kotlinx.coroutines
+  Copyright JetBrains s.r.o. and contributors. Apache License 2.0.

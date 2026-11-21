@@ -1,0 +1,18 @@
+/.gradle/
+/build/
+/app/build/
+/local.properties
+/.idea/
+*.iml
+captures/
+keystore/
+*.jks
+*.password
+# iperf3 source is cloned by native/build-iperf3.sh; build trees are scratch.
+/native/iperf/
+/native/build/
+/native/openssl-*.tar.gz
+keystore.properties
+# Build outputs, release APKs and screenshots are published as GitHub Releases, not committed.
+/dist/
+/native/openssl-src/

@@ -14,8 +14,14 @@ Optional support for **iperf3 Manager** servers lets you start, stop and reserve
 
 ## Screenshots
 
-Screenshots are rendered from example data by the Robolectric tests into `dist/screens/`
-(run `./gradlew :app:testDebugUnitTest`). They are attached to GitHub Releases rather than committed.
+| Test | History | About |
+|:---:|:---:|:---:|
+| ![Test screen](docs/screenshots/test.webp) | ![History](docs/screenshots/history.webp) | ![About](docs/screenshots/about.webp) |
+
+| Licences | Unfolded |
+|:---:|:---:|
+| ![Open-source licences](docs/screenshots/licences.webp) | ![Unfolded test layout](docs/screenshots/unfolded-test.webp) |
+
 
 ## Features
 
